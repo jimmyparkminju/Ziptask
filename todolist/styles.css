@@ -1,0 +1,170 @@
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main, footer {
+    width: 100%;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, input, button, select, textarea {
+    font-family: 'Pretendard', sans-serif;
+}
+
+header, nav, footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ecf0f1;
+}
+
+main {
+    background-color: #ecf0f1;
+    padding: 40px 0;
+}
+
+main #todo-form {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+main #input-fields {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main #input-fields input,
+main #input-fields label,
+main #priority-form label {
+    margin-bottom: 10px;
+}
+
+main #input-fields input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+main #priority-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+main #priority-form label {
+    flex: 1;
+    margin-right: 10px;
+}
+
+main button {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main button:hover {
+    background-color: #27ae60;
+}
+
+main #category-select {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+main #progress-bar {
+    background-color: #3498db;
+    height: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+main #progress {
+    background-color: #2c3e50;
+    height: 100%;
+    width: 0;
+}
+
+main ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+main ul li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main ul li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+main #congrats {
+    background-color: #27ae60;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+main #congrats button {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main #congrats button:hover {
+    background-color: #27ae60;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
